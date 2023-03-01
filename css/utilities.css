@@ -15,7 +15,7 @@
   border: none;
   border-radius: 5px;
   background-color: #28a745;
-  width: 13%;
+
   align-self: center;
 }
 
@@ -28,9 +28,14 @@
   color: #fff;
 }
 
-.btn-secondary {
+.bg-secondary {
   color: #fff;
   background-color: #0284d0;
+}
+.btn-secondary {
+  color: #fff;
+  background: #0284d0;
+  border: #fff 2px solid;
 }
 
 .btn-dark {
@@ -41,4 +46,9 @@
 .btn-light {
   background-color: #f4f4f4;
   color: white;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333;
 }

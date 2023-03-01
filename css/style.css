@@ -4,6 +4,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -33,7 +35,7 @@ p {
 }
 
 img {
-  width: 100%;
+  width: auto;
 }
 
 .navbar {
@@ -112,6 +114,9 @@ img {
   display: flex;
   padding: 40px;
   text-align: center;
+  align-items: center;
+  /* align-self: center; */
+  justify-content: center;
 }
 
 .flex-items i {
@@ -136,15 +141,18 @@ img {
 }
 
 .items img {
-  height: 400px;
+  width: auto;
+  height: auto;
+  flex-grow: 1;
 }
 
 .content-people {
   background: #28a745;
   color: white;
   padding: 35px;
+  width: 90%;
+  /* height: 340px; */
 }
-
 .content-people h3 {
   font-size: 35px;
   margin: 20px 0;
@@ -158,4 +166,124 @@ img {
 
 .content-people p {
   margin-bottom: 50px;
+}
+
+.pictures {
+  margin: 30px 0;
+  text-align: center;
+  /* display: flex; */
+}
+
+.pictures img {
+  width: 20%;
+}
+
+.pictures img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.item {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.item h3 {
+  font-size: 40px;
+}
+
+.people {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.people img {
+  border-radius: 80%;
+  width: auto;
+  padding: 20px;
+}
+.people h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.context {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.context h3 {
+  font-size: 40px;
+}
+
+.items {
+  margin-top: 20px;
+}
+
+.essa {
+  width: 70%;
+}
+
+.essa h3 {
+  font-size: 30px;
+  padding: 30px 0 0 30px;
+}
+
+.essa form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.items img {
+  width: auto;
+}
+
+.essa input {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(81, 78, 78);
+}
+
+.essa a {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px 30px; */
+  /* display: inline-block; */
+  width: 90%;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+
+  /* padding: 10px 30px; */
+  margin: 0 40px;
+}
+
+.footer {
+  background: #333;
+  height: 250px;
+}
+
+.cont {
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.cont a {
+  /* background: #fff; */
+  color: #fff;
+  padding: 0 30px;
+  font-size: 36px;
+}
+
+.footer h3 {
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 1180px) {
 }
