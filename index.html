@@ -37,7 +37,7 @@
     <title>Welcome to EdgeLedger</title>
   </head>
   <body>
-    <header class="hero">
+    <header id="home" class="hero">
       <div id="navbar" class="navbar">
         <h1 class="logo">
           <span class="text-primary">
@@ -45,30 +45,30 @@
             Edge</span
           >Ledger
         </h1>
-        <nav>
-          <ul>
-            <li>
-              <a class="ez" href="#home">Home</a>
+        <div class="nav-container">
+          <ul class="nav-links">
+            <li class="nav_bar nav_bar--active">
+              <a class="navs nav_bar--1" href="#home">Home</a>
             </li>
-            <li>
-              <a class="ez" href="#about">About</a>
+            <li class="nav_bar nav_bar--2">
+              <a class="navs" href="#about">About</a>
             </li>
-            <li>
-              <a class="ez" href="#cases">Cases</a>
+            <li class="nav_bar">
+              <a class="navs nav_bar--3" href="#cases">Cases</a>
             </li>
-            <li>
-              <a class="ez" href="#blog"> Blog</a>
+            <li class="nav_bar">
+              <a class="navs nav_bar--4" href="#blog"> Blog</a>
             </li>
-            <li>
-              <a class="ez" href="#contact">Contact</a>
+            <li class="nav_bar">
+              <a class="navs nav_bar--5" href="#contact">Contact</a>
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
       <div class="content">
         <h1>The sky is the limit</h1>
         <p>We provide world class financial assistance</p>
-        <a href="#about " class="btn">
+        <a href="#about " class="btn btn-H">
           <i class="fas fa-chevron-right"></i>
           Read More
         </a>
@@ -110,7 +110,7 @@
         </div>
       </section>
     </main>
-    <team id="us" class="cases">
+    <team id="cases" class="cases">
       <div class="items imgs">
         <img src="./images/home/people.jpg" />
 
@@ -155,7 +155,7 @@
         <img src="./images/cases/cases8.jpg" />
       </div>
     </work>
-    <team id="us" class="cases">
+    <team id="blog" class="cases">
       <div class="items">
         <div class="content-people bg-secondary">
           <h4>April 16 2020</h4>
@@ -198,7 +198,7 @@
         </div>
       </div>
     </container>
-    <blog id="blog" class="cases last">
+    <blog id="contact" class="cases last">
       <div class="items">
         <img src="./images/home/contact.jpg" />
         <div class="essa bg-light">
@@ -222,4 +222,5 @@
       <h3>Copyright 2023 - EdgeLedger</h3>
     </footer>
   </body>
+  <script src="/js/script.js"></script>
 </html>
